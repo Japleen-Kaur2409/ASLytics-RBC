@@ -19,21 +19,21 @@
 # You should have received a copy of the GNU General Public License
 # along with Signspeech.  If not, see <https://www.gnu.org/licenses/>.
 
-print ("""
-╔═╗╦╔═╗╔╗╔╔═╗╔═╗╔═╗╔═╗╔═╗╦ ╦
-╚═╗║║ ╦║║║╚═╗╠═╝║╣ ║╣ ║  ╠═╣
-╚═╝╩╚═╝╝╚╝╚═╝╩  ╚═╝╚═╝╚═╝╩ ╩
+# print ("""
+# ╔═╗╦╔═╗╔╗╔╔═╗╔═╗╔═╗╔═╗╔═╗╦ ╦
+# ╚═╗║║ ╦║║║╚═╗╠═╝║╣ ║╣ ║  ╠═╣
+# ╚═╝╩╚═╝╝╚╝╚═╝╩  ╚═╝╚═╝╚═╝╩ ╩
 
-Signspeech  Copyright (C) 2019  Javier O. Cordero Pérez
+# Signspeech  Copyright (C) 2019  Javier O. Cordero Pérez
 
-This program comes with ABSOLUTELY NO WARRANTY.
-This is free software, and you are welcome to redistribute it
-under certain conditions; check LICENSE for details.
+# This program comes with ABSOLUTELY NO WARRANTY.
+# This is free software, and you are welcome to redistribute it
+# under certain conditions; check LICENSE for details.
 
-  ┬  ┌─┐┌─┐┌┬┐┬┌┐┌┌─┐  ┬  ┬┌┐ ┬─┐┌─┐┬─┐┬┌─┐┌─┐
-  │  │ │├─┤ │││││││ ┬  │  │├┴┐├┬┘├─┤├┬┘│├┤ └─┐
-  ┴─┘└─┘┴ ┴─┴┘┴┘└┘└─┘  ┴─┘┴└─┘┴└─┴ ┴┴└─┴└─┘└─┘
-""")
+#   ┬  ┌─┐┌─┐┌┬┐┬┌┐┌┌─┐  ┬  ┬┌┐ ┬─┐┌─┐┬─┐┬┌─┐┌─┐
+#   │  │ │├─┤ │││││││ ┬  │  │├┴┐├┬┘├─┤├┬┘│├┤ └─┐
+#   ┴─┘└─┘┴ ┴─┴┘┴┘└┘└─┘  ┴─┘┴└─┘┴└─┴ ┴┴└─┴└─┘└─┘
+# """)
 
 # Imports
 import azure.cognitiveservices.speech as speechsdk
@@ -96,11 +96,11 @@ def parse(text):
   # Process text input
   doc = nlp(text) # Run the pipeline on text input
 
-  print ("""
-  ┌─┐┌─┐┬─┐┌─┐┌─┐┬─┐┌┬┐  ┌┬┐┬─┐┌─┐┌┐┌┌─┐┬  ┌─┐┌┬┐┬┌─┐┌┐┌
-  ├─┘├┤ ├┬┘├┤ │ │├┬┘│││   │ ├┬┘├─┤│││└─┐│  ├─┤ │ ││ ││││
-  ┴  └─┘┴└─└  └─┘┴└─┴ ┴   ┴ ┴└─┴ ┴┘└┘└─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘
-  """)
+  # print ("""
+  # ┌─┐┌─┐┬─┐┌─┐┌─┐┬─┐┌┬┐  ┌┬┐┬─┐┌─┐┌┐┌┌─┐┬  ┌─┐┌┬┐┬┌─┐┌┐┌
+  # ├─┘├┤ ├┬┘├┤ │ │├┬┘│││   │ ├┬┘├─┤│││└─┐│  ├─┤ │ ││ ││││
+  # ┴  └─┘┴└─└  └─┘┴└─┴ ┴   ┴ ┴└─┴ ┴┘└┘└─┘┴─┘┴ ┴ ┴ ┴└─┘┘└┘
+  # """)
 
   for sentence in doc.sentences:
   
@@ -114,11 +114,11 @@ def parse(text):
     print("\nResult: ", result, "\n")
     #print(res)
 
-    print ("""
-  ┌─┐┌─┐┬    ┬─┐┌─┐┌─┐┬─┐┌─┐┌─┐┌─┐┌┐┌┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌
-  ├─┤└─┐│    ├┬┘├┤ ├─┘├┬┘├┤ └─┐├┤ │││ │ ├─┤ │ ││ ││││
-  ┴ ┴└─┘┴─┘  ┴└─└─┘┴  ┴└─└─┘└─┘└─┘┘└┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘
-    """)
+  #   print ("""
+  # ┌─┐┌─┐┬    ┬─┐┌─┐┌─┐┬─┐┌─┐┌─┐┌─┐┌┐┌┌┬┐┌─┐┌┬┐┬┌─┐┌┐┌
+  # ├─┤└─┐│    ├┬┘├┤ ├─┘├┬┘├┤ └─┐├┤ │││ │ ├─┤ │ ││ ││││
+  # ┴ ┴└─┘┴─┘  ┴└─└─┘┴  ┴└─└─┘└─┘└─┘┘└┘ ┴ ┴ ┴ ┴ ┴└─┘┘└┘
+  #   """)
     #display(translation)
 
   return doc, res
@@ -317,11 +317,11 @@ def main():
 
   while not flag:
     # Get text
-    print ("""
-  ┌─┐┌─┐┌┬┐┬ ┬┌─┐┬─┐  ┌─┐┌─┐┌─┐┌─┐┌─┐┬ ┬
-  │ ┬├─┤ │ ├─┤├┤ ├┬┘  └─┐├─┘├┤ ├┤ │  ├─┤
-  └─┘┴ ┴ ┴ ┴ ┴└─┘┴└─  └─┘┴  └─┘└─┘└─┘┴ ┴
-    """)
+  #   print ("""
+  # ┌─┐┌─┐┌┬┐┬ ┬┌─┐┬─┐  ┌─┐┌─┐┌─┐┌─┐┌─┐┬ ┬
+  # │ ┬├─┤ │ ├─┤├┤ ├┬┘  └─┐├─┘├┤ ├┤ │  ├─┤
+  # └─┘┴ ┴ ┴ ┴ ┴└─┘┴└─  └─┘┴  └─┘└─┘└─┘┴ ┴
+  #   """)
 
     #tests = [
       # "Where is the bathroom?",
@@ -337,7 +337,13 @@ def main():
     #if len(tests) == 0:
       # tests = tests + [ getSpeech() ]
       #tests = tests + ["What is your name?"]
-    tests = [input("Please enter a sentence to translate into ASL gloss:\n> ")]
+    # tests = [input("Please enter a sentence to translate into ASL gloss:\n> ")]
+    import sys
+
+    if len(sys.argv) > 1:
+      tests = [" ".join(sys.argv[1:])]
+    else:
+      tests = [input("Please enter a sentence to translate into ASL gloss:\n> ")]
 
     print("Text to process: ", tests, "\n")
 
@@ -345,11 +351,11 @@ def main():
       print("No speech detected... Reattempting.")
     else:
       for text in tests:
-        print ("""
-  ┌─┐┌┐┌┌─┐┬ ┬ ┬┌─┐┌─┐  ┌─┐┌┐┌┌─┐┬  ┬┌─┐┬ ┬
-  ├─┤│││├─┤│ └┬┘└─┐├┤   ├┤ ││││ ┬│  │└─┐├─┤
-  ┴ ┴┘└┘┴ ┴┴─┘┴ └─┘└─┘  └─┘┘└┘└─┘┴─┘┴└─┘┴ ┴
-        """)
+  #       print ("""
+  # ┌─┐┌┐┌┌─┐┬ ┬ ┬┌─┐┌─┐  ┌─┐┌┐┌┌─┐┬  ┬┌─┐┬ ┬
+  # ├─┤│││├─┤│ └┬┘└─┐├┤   ├┤ ││││ ┬│  │└─┐├─┤
+  # ┴ ┴┘└┘┴ ┴┴─┘┴ └─┘└─┘  └─┘┘└┘└─┘┴─┘┴└─┘┴ ┴
+  #       """)
 
         print("Text to process: ", text, "\n")
 
@@ -357,10 +363,15 @@ def main():
         _, res = parse(text)
         print("Gloss sequence:", res)
 
-        print('\nPress "Enter" to continue or any type anything else to exit.')
-        key = input()
-        if key != '':
-          flag = True
+        # print('\nPress "Enter" to continue or any type anything else to exit.')
+        # key = input()
+        # if key != '':
+        #   flag = True
+        if len(sys.argv) <= 1:  # 只有互動模式才需要繼續問
+          print('\nPress "Enter" to continue or any type anything else to exit.')
+          key = input()
+          if key != '':
+            flag = True
         return res
         
 
