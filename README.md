@@ -1,20 +1,23 @@
-<img src="assets/logo.png" alt="ASLytics Logo" width="250"/>
+<p align="center">
+  <img src="assets/logo.png" alt="ASLytics Logo" width="250"/>
+</p>
 
-**ASLytics: Bridging the Knowledge Gap for the Deaf and Hard-of-Hearing Community**  
-**Borealis AI: Let’s Solve It! Program 2025**  
 
-**Team Members:**  
+<h1 align="center">ASLytics: Bridging the Knowledge Gap for the Deaf and Hard-of-Hearing Community</h1>
+<h3 align="center">Borealis AI: Let’s Solve It! Program 2025</h3>
+
+**👥 Team Members:**  
 - Ellie (Yi-Ting) Chang  
 - Napasorn Kao-ian  
 - Japleen Kaur  
 
-**Mentors:**  
+**🧑‍🏫 Mentors:**  
 - Edwin Ng  
 - Ajay Joy  
 
 ---
 
-## **Introduction**
+## **📘 Introduction**
 
 ### **Main Theme & Problem**  
 ASLytics addresses the inaccessibility of online video content for Deaf and hard-of-hearing individuals, particularly on platforms like YouTube where sign language support is scarce. Traditional subtitles often fall short, with studies showing 84% of Deaf children struggle to keep up with caption speed (National Deaf Children's Society, 2021). As ASL is the primary language for many in the Deaf community (Mitchell & Karchmer, 2004), digital content often fails to meet their needs, creating a significant gap in access to information and entertainment.
@@ -24,14 +27,20 @@ ASLytics is a full-stack AI-powered YouTube extension that transforms English ca
 
 ---
 
-## **Team Members**  
+## **🎞️ Presentation Slides**
+
+[Click here to view the ASLytics presentation deck)](https://www.canva.com/design/DAGlBBc3Jwc/9DMc-JfSkOijpCX8Ogvi-g/edit?utm_content=DAGlBBc3Jwc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+---
+
+## **👩‍💻 Team Members**  
 | ![Ellie](assets/ellie.png) | ![Napasorn](assets/napasorn.png) | ![Japleen](assets/japleen.png) |  
 |:--------------------------:|:-------------------------------:|:-----------------------------:|  
 | Ellie (Yi-Ting) Chang      | Napasorn Kao-ian                | Japleen Kaur                  |  
 
 ---
 
-## **Dataset**
+## **🗂️ Dataset**
 
 We created a custom vocabulary dataset in pose format (joint position coordinates) by scraping over 4,400 word-level signs from ASL Signbank and Signing Savvy. Using pose estimation tools from the open-source Sign Language Processing project, we converted the videos into coordinate-based representations for real-time animation playback.  
 
@@ -46,7 +55,7 @@ We created a custom vocabulary dataset in pose format (joint position coordinate
 
 ---
 
-## **Acknowledgements**
+## **🙏 Acknowledgements**
 
 ### **Gloss-to-Pose Repository**
 
@@ -62,7 +71,7 @@ We gratefully acknowledge the **Sign Language Processing** open-source toolkit u
 ```
 ---
 
-## **Results**  
+## **📊 Results**  
 
 Here is an example of ASLytics in action, demonstrating real-time ASL animations synchronized with YouTube captions:  
 
@@ -70,7 +79,7 @@ Here is an example of ASLytics in action, demonstrating real-time ASL animations
 
 ---
 
-## **How to Use**
+## **⚙️ How to Use**
 
 1. Clone this repository to your local machine.  
 2. Ensure you have Python and dependencies installed.  
@@ -79,7 +88,7 @@ Here is an example of ASLytics in action, demonstrating real-time ASL animations
 
 ---
 
-## **License**
+## **📄 License**
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).  
 
