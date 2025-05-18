@@ -40,7 +40,7 @@ ASLytics is a full-stack AI-powered YouTube extension that transforms English ca
 
 ---
 
-## **🗂Dataset**
+## **Dataset**
 
 We created a custom vocabulary dataset in pose format (joint position coordinates) by scraping over 4,400 word-level signs from ASL Signbank and Signing Savvy. Using pose estimation tools from the open-source Sign Language Processing project, we converted the videos into coordinate-based representations for real-time animation playback.  
 
