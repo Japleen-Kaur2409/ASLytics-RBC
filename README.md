@@ -6,18 +6,18 @@
 <h1 align="center">ASLytics: Bridging the Knowledge Gap for the Deaf and Hard-of-Hearing Community</h1>
 <h3 align="center">Borealis AI: Let’s Solve It! Program 2025</h3>
 
-**👥 Team Members:**  
+** Team Members:**  
 - Ellie (Yi-Ting) Chang  
 - Napasorn Kao-ian  
 - Japleen Kaur  
 
-**🧑‍🏫 Mentors:**  
+**Mentors:**  
 - Edwin Ng  
 - Ajay Joy  
 
 ---
 
-## **📘 Introduction**
+## ** Introduction**
 
 ### **Main Theme & Problem**  
 ASLytics addresses the inaccessibility of online video content for Deaf and hard-of-hearing individuals, particularly on platforms like YouTube where sign language support is scarce. Traditional subtitles often fall short, with studies showing 84% of Deaf children struggle to keep up with caption speed (National Deaf Children's Society, 2021). As ASL is the primary language for many in the Deaf community (Mitchell & Karchmer, 2004), digital content often fails to meet their needs, creating a significant gap in access to information and entertainment.
